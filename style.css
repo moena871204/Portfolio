@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+}
+header{
+  background: #eee;
+  text-align: center;
+  padding: 32px 0;
+}
+header > img{
+  border-radius: 50%;
+}
+h1{
+  font-weight: normal;
+  font-size: 24px;
+  margin-top: 16px;
+}
+main{
+  padding: 64px 0;
+}
+h2{
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+}
+section{
+  margin: 64px auto 0;
+  width: 400px;
+}
+h3{
+  font-weight: normal;
+  margin: 16px 0;
+}
+section p{
+  line-height: 1.8;
+}
+footer{
+  border-top: solid 1px #ccc;
+  text-align: center;
+  padding: 64px 0;
+}
+small{
+  font-size: 14px;
+  color: #ccc;
+}
+address{
+  margin-top: 16px;
+}
+a:hover{
+  opacity: 0.7;
+}
